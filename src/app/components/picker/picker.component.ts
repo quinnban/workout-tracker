@@ -38,7 +38,7 @@ export class PickerComponent  implements OnInit,  ControlValueAccessor {
     {
       text: 'Confirm',
       handler: (value: { [x: string]: { value: any; }; }) => {
-        this.value.patchValue(value["REPS"].value)
+        this.value.patchValue(value["REPS"].value);
       },
     },
   ];

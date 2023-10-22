@@ -10,6 +10,7 @@ import { PickerComponent } from '../picker/picker.component';
   imports:[IonCard,IonCardContent,IonCardHeader,IonInput,IonPicker,IonButton, IonTitle, IonGrid,IonRow,IonCol,PickerComponent]
 })
 export class ExerciseCardComponent  implements OnInit {
+  
 
   constructor() { }
 
