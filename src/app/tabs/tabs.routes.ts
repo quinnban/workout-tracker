@@ -9,12 +9,12 @@ export const routes: Routes = [
       {
         path: 'workout',
         loadComponent: () =>
-          import('../workout/workout.page').then((m) => m.Tab1Page),
+          import('../pages/workout/workout.page').then((m) => m.Tab1Page),
       },
       {
         path: 'progress',
         loadComponent: () =>
-          import('../progress/progress.page').then((m) => m.Tab2Page),
+          import('../pages/progress/progress.page').then((m) => m.Tab2Page),
       },
       {
         path: '',

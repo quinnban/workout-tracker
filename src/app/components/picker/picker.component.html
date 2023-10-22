@@ -1,0 +1,5 @@
+<ion-button [id]="'open-picker-'+id" size="small" color="medium">
+  {{value.value ? value.value : name}}
+  <ion-icon name="chevron-down" slot="end"></ion-icon>
+</ion-button>
+<ion-picker [trigger]="'open-picker-'+id" [columns]="column" [buttons]="pickerButtons"></ion-picker>

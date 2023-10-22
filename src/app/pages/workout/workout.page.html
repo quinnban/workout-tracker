@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      {{date | date:'mediumDate'}}
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button fill="clear" id="datetime">
+        <ion-icon slot="icon-only" name="calendar-number"></ion-icon>
+      </ion-button>
+      
+      <ion-button slot="end" fill="clear">
+        <ion-icon slot="icon-only" name="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <exercise-card></exercise-card>
+  <exercise-card></exercise-card>
+
+  <ion-popover trigger="datetime" class="popover-datetime" size="auto">
+    <ng-template>
+      <ion-datetime presentation="date" [showDefaultButtons]="true"></ion-datetime>
+    </ng-template>
+  </ion-popover>
+</ion-content>
+
+
+

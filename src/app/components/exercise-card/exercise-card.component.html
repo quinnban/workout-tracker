@@ -1,0 +1,29 @@
+<ion-card>
+  <ion-card-header>
+    <ion-title>
+      Dumbbell Bench
+    </ion-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col>Weight</ion-col>
+        <ion-col>REPS</ion-col>
+        <ion-col></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="ion-align-self-start">
+          <ion-card color="medium"class="ion-no-margin ">
+            <ion-input placeholder="315"></ion-input>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <picker name="Enter" [lowerBound]="1" [upperBound]="15"></picker>
+        </ion-col>
+        <ion-col>
+          <ion-button size="small" color="medium" >LOG SET</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card-content>
+</ion-card>
