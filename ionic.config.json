@@ -1,0 +1,7 @@
+{
+  "name": "MyWorkOutTracker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
