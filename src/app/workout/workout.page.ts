@@ -3,9 +3,9 @@ import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/stan
 import { ExploreContainerComponent } from '../explore-container/explore-container.component';
 
 @Component({
-  selector: 'app-tab1',
-  templateUrl: 'tab1.page.html',
-  styleUrls: ['tab1.page.scss'],
+  selector: 'workout-page',
+  templateUrl: 'workout.page.html',
+  styleUrls: ['workout.page.scss'],
   standalone: true,
   imports: [IonHeader, IonToolbar, IonTitle, IonContent, ExploreContainerComponent],
 })
